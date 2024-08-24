@@ -252,7 +252,7 @@ h2 {
 .hero--section--img > img {
   width: 80%;
   height: auto;
-  animation: rotate 0.3s linear infinite;
+  animation: rotate 12s linear infinite;
 }
 
 @keyframes rotate {
