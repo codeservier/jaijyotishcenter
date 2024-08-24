@@ -1,77 +1,80 @@
+
+
 {
-  "skills": [
+  "services": [
     {
       "id": "1",
       "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "ज्योतिष चार्ट विश्लेषण",
+      "description": "ज्योतिष चार्टों की व्याख्या करने में माहिर और ग्रहों के प्रभाव और उनके व्यक्तिगत और पेशेवर जीवन पर प्रभाव की विस्तृत जानकारी प्रदान करने में विशेषज्ञ।"
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "व्यक्तिगत राशिफल",
+      "description": "ज्योतिष चार्टों की व्याख्या करने में माहिर और ग्रहों के प्रभाव और उनके व्यक्तिगत और पेशेवर जीवन पर प्रभाव की विस्तृत जानकारी प्रदान करने में विशेषज्ञ।"
     },
     {
       "id": "3",
       "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "टारोट पढ़ाई",
+      "description": "ज्योतिष चार्टों की व्याख्या करने में माहिर और ग्रहों के प्रभाव और उनके व्यक्तिगत और पेशेवर जीवन पर प्रभाव की विस्तृत जानकारी प्रदान करने में विशेषज्ञ।"
     },
     {
       "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "ज्योतिषीय पूर्वानुमान",
+      "description": "ज्योतिष चार्टों की व्याख्या करने में माहिर और ग्रहों के प्रभाव और उनके व्यक्तिगत और पेशेवर जीवन पर प्रभाव की विस्तृत जानकारी प्रदान करने में विशेषज्ञ।"
     }
   ],
+
   "portfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "व्यक्तिगत जन्म कुंडली विश्लेषण",
+      "description": "व्यक्तिगत जन्म कुंडली का गहन विश्लेषण, जिसमें ग्रहों के प्रभाव और पहलुओं की विस्तृत व्याख्या शामिल है।",
+      "link": "पूर्ण विश्लेषण देखें"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "मासिक राशिफल रिपोर्ट",
+      "description": "व्यक्तिगत ज्योतिषीय प्रोफाइल के आधार पर अंतर्दृष्टि और मार्गदर्शन प्रदान करने वाली कस्टम मासिक राशिफल रिपोर्ट।",
+      "link": "रिपोर्ट देखें"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "टारोट पढ़ाई सत्र",
+      "description": "टारोट कार्डों की व्याख्या के माध्यम से विभिन्न जीवन पहलुओं पर स्पष्टता और दिशा प्रदान करने वाले व्यापक टारोट पढ़ाई सत्र।",
+      "link": "सत्र विवरण देखें"
     }
   ],
-  "testimonial": [
+  "testimonials": [
     {
       "id": "1",
       "count": "5",
       "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
+      "description": "ज्योतिषीय अंतर्दृष्टि बिल्कुल सही थीं और मेरे जीवन की एक चुनौतीपूर्ण अवधि को नेविगेट करने में बेहद मददगार थीं।",
+      "author_name": "लीला मोनरो",
+      "author_designation": "ज्योतिष उत्साही"
     },
     {
       "id": "2",
       "count": "5",
       "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
+      "description": "व्यक्तिगत राशिफल रिपोर्ट बहुत विस्तृत थी और मेरे करियर पथ पर एक ताजगी प्रदान की।",
+      "author_name": "मार्क एडम्स",
+      "author_designation": "उद्यमी"
     },
     {
       "id": "3",
       "count": "5",
       "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "description": "टारोट पढ़ाई सत्र ने मूल्यवान अंतर्दृष्टि और मार्गदर्शन प्रदान किया, जिससे मुझे महत्वपूर्ण निर्णय लेने में मदद मिली।",
+      "author_name": "सोफिया चांग",
+      "author_designation": "रचनात्मक पेशेवर"
     }
   ]
 }

@@ -2,8 +2,9 @@ import AboutMe from "../AboutMe";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
 import HeroSection from "../HeroSection";
-import MyPortfolio from "../MyPortfolio";
-import MySkills from "../MySkills";
+import KnowYourSign from "../KnowYourSign";
+import MySkills from "../OurServices";
+import OurProducts from "../OurProducts";
 import Testimonial from "../Testimonials";
 
 export default function Home() {
@@ -12,7 +13,8 @@ export default function Home() {
       <HeroSection />
       <MySkills />
       <AboutMe />
-      <MyPortfolio />
+      <KnowYourSign/>
+      <OurProducts/>
       <Testimonial />
       <ContactMe />
       <Footer />

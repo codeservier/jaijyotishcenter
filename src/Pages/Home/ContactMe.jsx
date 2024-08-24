@@ -3,15 +3,15 @@ export default function ContactMe() {
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
-        <h2>Contact Me</h2>
+        <h2>  संपर्क करें</h2>
         <p className="text-lg">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
+        कृपया निम्नलिखित विवरण भेजें:<br/>पहली मुलाकात की फीस Rs 501/- (30 मिनट) दूसरी मुलाकात की फीस Rs 1101/- (1 घंटा)
         </p>
       </div>
       <form className="contact--form--container">
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="text-md">First Name</span>
+            <span className="text-md">पूरा नाम:</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -21,7 +21,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="last-name" className="contact--label">
-            <span className="text-md">Last Name</span>
+            <span className="text-md">जन्म तिथि:</span>
             <input
               type="text"
               className="contact--input text-md"
@@ -31,7 +31,7 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="email" className="contact--label">
-            <span className="text-md">Email</span>
+            <span className="text-md">जन्म समय:  </span>
             <input
               type="email"
               className="contact--input text-md"
@@ -41,7 +41,28 @@ export default function ContactMe() {
             />
           </label>
           <label htmlFor="phone-number" className="contact--label">
-            <span className="text-md">phone-number</span>
+            <span className="text-md">जन्म स्थान:</span>
+            <input
+              type="number"
+              className="contact--input text-md"
+              name="phone-number"
+              id="phone-number"
+              required
+            />
+          </label>
+          <label htmlFor="phone-number" className="contact--label">
+            <span className="text-md">मोबाइल नंबर:</span>
+            <input
+              type="number"
+              className="contact--input text-md"
+              name="phone-number"
+              id="phone-number"
+              required
+            />
+          </label>
+          <label htmlFor="phone-number" className="contact--label">
+            <span className="text-md">समस्याएँ (यदि कोई हो)
+            </span>
             <input
               type="number"
               className="contact--input text-md"

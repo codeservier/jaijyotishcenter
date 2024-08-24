@@ -1,23 +1,32 @@
+import img from "../../assets/about-me.svg";
 export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img">
-        <img src="./img/about-me.png" alt="About Me" />
+        <img src={img} alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
           <p className="section--title">About</p>
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="skills-section--heading">मेरे ऑनलाइन मोबाइल न्यूमरोलॉजी परामर्श सेवा में आपका स्वागत है!</h1>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-            tempora numquam sint odit optio.
+            मैं एक प्रमाणित मोबाइल न्यूमरोलॉजिस्ट हूं, और मुझे यह बताते हुए खुशी हो
+            रही है कि अब आप अपने जीवन के छिपे हुए रहस्यों को जानने का मौका
+            प्राप्त कर सकते हैं। अंकों की शक्ति के माध्यम से, मैं आपको वित्तीय
+            सफलता, उत्तम स्वास्थ्य और जीवन में अद्वितीय सफलता प्राप्त करने के
+            लिए मार्गदर्शन कर सकता हूं। न्यूमरोलॉजी केवल एक विश्वास नहीं है; यह
+            एक विज्ञान है जो आपके जीवन की यात्रा को प्रभावित करने वाली ऊर्जाओं
+            और कंपनों तक पहुंचता है। 
           </p>
           <p className="hero--section-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-            recusandae?
+          आपके अद्वितीय संख्यात्मक पैटर्न को समझकर,
+            मैं आपकी जीवन की चुनौतियों का सामना करने, सूचित निर्णय लेने और अपने
+            लक्ष्यों को प्राप्त करने में आपकी मदद कर सकता हूं। इस
+            जीवन-परिवर्तनकारी अवसर को न चूकें। आपका भविष्य आपके हाथ में है, और
+            सही मार्गदर्शन के साथ, आप इसे एक उत्कृष्ट कृति में बदल सकते हैं।
+            क्या आप अपनी यात्रा शुरू करने के लिए तैयार हैं? आज ही मुझे
+            7753953763 पर संदेश भेजें या कॉल करें और अपने सच्चे संभावनाओं को
+            अनलॉक करना शुरू करें!
           </p>
         </div>
       </div>
