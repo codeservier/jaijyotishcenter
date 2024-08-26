@@ -199,7 +199,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 90.333px 18.333px;
+  padding: 90.333px 100.333px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -247,7 +247,7 @@ h2 {
 
 .hero--section--img {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .hero--section--img > img {
@@ -286,7 +286,7 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 0px 85.33px;
+  padding: 0px 15.33px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -480,6 +480,7 @@ h2 {
 
 .testimonial-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background: #fff;
   border-radius: 8px;
@@ -541,7 +542,7 @@ h2 {
 /* contact section  */
 .contact--section {
   display: flex;
-  padding: 150px 85px;
+  padding: 150px 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -633,7 +634,7 @@ input[type="checkbox"] {
   list-style: none;
   display: flex;
   align-items: flex-start;
-  gap: 42.667px;
+  gap: 12.667px;
   text-decoration: none;
 }
 .footer--items ul > li > a {
@@ -713,7 +714,24 @@ input[type="checkbox"] {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
-    padding-bottom: 70px;
+    padding-bottom: 0px;
+
+    padding: 90.333px 15.333px;
+
+  }
+  h2{
+    font-size: 40px;
+    line-height:50px ;
+    margin: 30px 10px;
+
+  }
+  h1{
+    font-size: 30px;
+    line-height:40px ;
+
+  }
+  .hero--section--img{
+    justify-content: center;
   }
   .hero--section--title,
   .hero--section-description,
@@ -744,13 +762,14 @@ input[type="checkbox"] {
   .contact--section,
   .footer--container {
     gap: 20px;
-    padding-top: 70px;
+    /* padding-top: 70px; */
     padding-bottom: 70px;
   }
   .about--section {
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
+    padding: 20.3px 15.3px;
   }
   .testimonial--section--card {
     padding: 25px;
