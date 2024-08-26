@@ -154,7 +154,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85.333px;
+  padding: 10px 10.333px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -242,6 +242,7 @@ h2 {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
+  
 }
 
 .hero--section--img {
@@ -789,7 +790,6 @@ input[type="checkbox"] {
   height: 1.313rem;
   flex-direction: column;
   justify-content: space-around;
-  position: absolute;
   top: 25px;
   right: 25px;
 }
