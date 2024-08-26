@@ -2,32 +2,32 @@ import React from 'react';
 
 const testimonials = [
   {
-    name: "Alice Johnson",
-    text: "The astrology reading was spot-on! I felt like the insights provided were incredibly accurate and helped me navigate a tough decision.",
-    image: "https://via.placeholder.com/150", 
-  },
-  {
-    name: "Bob Smith",
-    text: "I've never had such a detailed and personal reading. The predictions and guidance were clear and very helpful.",
-    image: "https://via.placeholder.com/150", 
-  },
-  {
-    name: "Carla Davis",
-    text: "The astrologer really took the time to understand my situation. The reading was enlightening and provided valuable perspectives.",
-    image: "https://via.placeholder.com/150", 
-  },
-  {
-    name: "David Brown",
-    text: "Exceptional experience! The reading resonated deeply with me and gave me confidence in the choices I need to make.",
+    name: "अनिता शर्मा",
+    text: "ज्योतिषीय पठन बेहद सूझ-बूझ भरा और सटीक था। इसने मुझे महत्वपूर्ण जीवन निर्णय लेने के लिए आवश्यक स्पष्टता प्रदान की।",
     image: "https://via.placeholder.com/150",
   },
   {
-    name: "Eva White",
-    text: "Highly recommend this astrology service. The readings are thorough and the guidance is truly transformative.",
-    image: "https://via.placeholder.com/150", 
+    name: "राजेश पटेल",
+    text: "पठन की गहराई ने मुझे प्रभावित किया। ज्योतिषी की मार्गदर्शिका बहुत व्यावहारिक और मेरे जीवन के लिए प्रासंगिक थी।",
+    image: "https://via.placeholder.com/150",
   },
-
+  {
+    name: "सुनीता राव",
+    text: "यह पठन वास्तव में एक नई दृष्टि प्रदान करने वाला था। ज्योतिषी ने मेरी व्यक्तिगत स्थिति को समझने के लिए समय निकाला और मूल्यवान सलाह दी।",
+    image: "https://via.placeholder.com/150",
+  },
+  {
+    name: "अमित वर्मा",
+    text: "असाधारण सेवा! ज्योतिषी की भविष्यवाणियाँ सटीक थीं और इसने मुझे अपने जीवन के एक महत्वपूर्ण चरण को अधिक आत्मविश्वास के साथ नेविगेट करने में मदद की।",
+    image: "https://via.placeholder.com/150",
+  },
+  {
+    name: "मीरा अय्यर",
+    text: "मैं इस ज्योतिष सेवा की अत्यधिक सिफारिश करती हूँ। प्रदान की गई अंतर्दृष्टियाँ परिवर्तनीय थीं और मेरे जीवन पथ की बेहतर समझ प्राप्त करने में मदद की।",
+    image: "https://via.placeholder.com/150",
+  },
 ];
+
 
 const Testimonials = () => {
   return (

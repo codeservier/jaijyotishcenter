@@ -3,17 +3,20 @@ import img from "../../assets/img2.png"; // Adjust the path as necessary
 
 // Custom Typing Effect Component
 const TypingEffect = ({
-  text,
+  text = [""], // Default to an empty string if text is undefined
   speed = 150,
   eraseSpeed = 100,
-  delay = 1000,
+  delay = 2000,
 }) => {
   const [displayText, setDisplayText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
+  const [typingCompleted, setTypingCompleted] = useState(false);
 
   useEffect(() => {
+    if (text.length === 0) return; // Early return if text array is empty
+
     const currentText = text[index];
     const handleTyping = () => {
       if (isDeleting) {
@@ -25,6 +28,7 @@ const TypingEffect = ({
       } else {
         setDisplayText(currentText.slice(0, displayText.length + 1));
         if (displayText === currentText) {
+          setTypingCompleted(true);
           setIsDeleting(true);
         }
       }
@@ -37,11 +41,14 @@ const TypingEffect = ({
   }, [displayText, isDeleting, index, text, speed, eraseSpeed, isTyping]);
 
   useEffect(() => {
-    if (!isTyping) {
-      const delayTimer = setTimeout(() => setIsTyping(true), delay);
+    if (typingCompleted) {
+      const delayTimer = setTimeout(() => {
+        setIsTyping(true);
+        setTypingCompleted(false);
+      }, delay);
       return () => clearTimeout(delayTimer);
     }
-  }, [index, delay, isTyping]);
+  }, [typingCompleted, delay]);
 
   useEffect(() => {
     setIsTyping(true);
@@ -52,10 +59,7 @@ const TypingEffect = ({
 
 // Hero Section Component
 const HeroSection = () => {
-  const texts = [
-    "Pt. Jai Pratap Dixit",
-    // "Discover the power of numerology with us."
-  ];
+  const texts = ["Pt. Jai Pratap Dixit"];
 
   return (
     <section id="heroSection" className="hero--section">
@@ -66,14 +70,12 @@ const HeroSection = () => {
             100% { border-right: 2px solid transparent; }
           }
           .typing-effect {
-           
             white-space: normal; /* Allow text to wrap */
             overflow: hidden; /* Hide overflow if necessary */
             border-right: 2px solid rgba(255, 255, 255, 0.75);
             animation: blink 0.75s step-end infinite;
           }
           .hero--section--title {
-     
             overflow-wrap: break-word; /* Handle long words */
           }
           .hero--section--content {
@@ -86,11 +88,11 @@ const HeroSection = () => {
           <p className="section--title">नमस्कार 🙏</p>
           <h1 className="hero--section--title">
             <span className="typing-effect">
-            <TypingEffect
+              <TypingEffect
                 text={texts}
-                speed={100}
-                eraseSpeed={50}
-                delay={3000}
+                speed={150}         // Adjust speed here
+                eraseSpeed={100}
+                delay={2000}        // Adjust delay here
               />
             </span>
             <br />
@@ -99,13 +101,13 @@ const HeroSection = () => {
             </p>
           </h1>
           <p style={{ color: "white", fontSize: 30, textAlign: "justify" }}>
-          जॉब या बिजनेस क्या करना चाहिए? सफलता कब मिलेगी? वैवाहिक जीवन कैसा
+            जॉब या बिजनेस क्या करना चाहिए? सफलता कब मिलेगी? वैवाहिक जीवन कैसा
             होगा? लव मैरिज होगी या अरेंज मैरिज? कुंडली में कोई दोष या योग के
             बारे में जानकारी? और कोई भी समस्या?
             <br />
           </p>
-          <p style={{ color: "white",  textAlign: "justify" }}>
-          तो सबसे पहले आपको Rs 251/- PhonePe, Google Pay (7376253763) के
+          <p style={{ color: "white", textAlign: "justify" }}>
+            तो सबसे पहले आपको Rs 251/- PhonePe, Google Pay (7376253763) के
             माध्यम से भुगतान करना होगा। इसके बाद आपको उस पेमेंट का स्क्रीनशॉट
             व्हाट्सएप पर भेजना होगा। हमारी टीम आपको अपॉइंटमेंट का समय देगी,
             जिसके बाद कॉल पर आपकी सभी समस्याओं का समाधान बताया जाएगा।

@@ -92,8 +92,8 @@ export default function ContactMe() {
         </label>
         <label htmlFor="checkboc" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
-        </label>
+          <span style={{color:'black'}} className="text-sm">मैं शर्तों को स्वीकार करता हूँ/करती हूँ</span>
+          </label>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
         </div>
