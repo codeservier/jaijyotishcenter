@@ -423,6 +423,19 @@ h2 {
   background-color: #005f5a; /* Darken button color on hover */
 }
 
+
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.status-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgb(23, 199, 0); /* or any other color you prefer for status messages */
+}
 /* Media query for larger screens */
 @media (min-width: 768px) {
   .kys-input-fields-container {
